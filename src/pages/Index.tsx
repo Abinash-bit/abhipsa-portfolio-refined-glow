@@ -1,4 +1,3 @@
-
 import { useEffect, useState } from "react";
 import { ChevronDown, ExternalLink, Mail, Phone, MapPin, Code, Zap, Brain, Settings } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -134,14 +133,14 @@ const Index = () => {
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
               <Button 
                 onClick={() => scrollToSection('projects')}
-                className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700"
+                className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white border-0"
               >
                 View Projects
               </Button>
               <Button 
                 variant="outline" 
                 onClick={() => scrollToSection('contact')}
-                className="border-gray-600 text-white hover:bg-gray-800"
+                className="border-blue-500 text-blue-400 hover:bg-blue-600 hover:text-white bg-transparent"
               >
                 Get In Touch
               </Button>
@@ -319,11 +318,11 @@ const Index = () => {
             I'd love to hear from you.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700">
+            <Button className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white border-0">
               <Mail className="mr-2" size={16} />
               abhipsa102@gmail.com
             </Button>
-            <Button variant="outline" className="border-gray-600 text-white hover:bg-gray-800">
+            <Button variant="outline" className="border-blue-500 text-blue-400 hover:bg-blue-600 hover:text-white bg-transparent">
               <Phone className="mr-2" size={16} />
               7205186730
             </Button>
